@@ -24,7 +24,7 @@ The specificities of the **BasqueParl** corpus are:
 
 ## Reference
 
-N. Escribano, J. A. Gonzalez, J. Orbegozo-Terradillos, A. Larrondo-Ureta, S. Peña-Fernández, O. Perez-de-Viñaspre and R. Agerri (2022). BasqueParl: A Bilingual Corpus of Basque Parliamentary Transcriptions. In *LREC 2022*.
+> N. Escribano, J. A. Gonzalez, J. Orbegozo-Terradillos, A. Larrondo-Ureta, S. Peña-Fernández, O. Perez-de-Viñaspre and R. Agerri (2022). BasqueParl: A Bilingual Corpus of Basque Parliamentary Transcriptions. In *LREC 2022*.
 
 ## Data Fields
 
@@ -43,3 +43,15 @@ The **BasqueParl** corpus is written as a Tab Separated Values (TSV) file. Each 
 - **"lemmas_stw"**: Lemmatized paragraph without stopwords
 - **"entities"**: Named entities extracted from the paragraph
 - **"entities_stw"**: Named entities extracted from the paragraph without stopwords
+
+## Methodological Information
+
+**Lemmas** and **named entities** of each paragraph have been extracted with these state-of-the-art Flair [lemmatization](ixa2.si.ehu.es/ragerri/flair-es-eu-lemma-models.tar.gz) and [NER](ixa2.si.ehu.es/ragerri/flair-es-eu-ner-models.tar.gz) models:
+
+> R. Agerri, I. S. Vicente, J. A. Campos, A. Barrena, X. Saralegi, A. S. Etxabe, and E. Agirre (2020). Give your text representation models some love: the case for basque. In LREC.
+> 
+> R. Agerri (2020). Projecting heterogeneous annotations for named entity recognition. In Iber-LEF@SEPLN.
+
+**Language detection** was performed by means of [langdetect](https://github.com/fedelopez77/langdetect).
+
+For more information, please read the [project reference](README.md#Reference).
