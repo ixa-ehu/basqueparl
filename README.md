@@ -1,7 +1,5 @@
 # BasqueParl: A Bilingual Corpus of Basque Parliamentary Transcriptions
 
-> N. Escribano, J. A. Gonzalez, J. Orbegozo-Terradillos, A. Larrondo-Ureta, S.Peña-Fernández, O. Perez-de-Viñaspre and R. Agerri (2022). BasqueParl: A Bilingual Corpus of Basque Parliamentary Transcriptions. In *LREC 2022*.
-
 This repository contains **BasqueParl**, a bilingual corpus for political discourse analysis. It covers transcriptions from the Parliament of the Basque Autonomous Community for eight years and two legislative terms (2012-2020), and its main characteristic is the presence of Basque-Spanish code-switching speeches.
 
 For instance, the following unprocessed speech combines a **Basque** text (plain) with **Spanish** fragments (highlighted):
@@ -20,9 +18,13 @@ The specificities of the **BasqueParl** corpus are:
 
 - **14 M words** of bilingual parliamentary transcriptions
 - **Speech paragraphs** as units
-- Metadata such as **date** and **speaker's name**, **gender** and **party** for each paragraph
+- Metadata such as **date** and **speaker's name**, **year of birth**, **gender** and **party** for each paragraph
 - **Language** of each paragraph (either Basque or Spanish)
 - **Lemmas** and **named entities** of each paragraph, with and without stopwords
+
+## Reference
+
+N. Escribano, J. A. Gonzalez, J. Orbegozo-Terradillos, A. Larrondo-Ureta, S. Peña-Fernández, O. Perez-de-Viñaspre and R. Agerri (2022). BasqueParl: A Bilingual Corpus of Basque Parliamentary Transcriptions. In *LREC 2022*.
 
 ## Data Fields
 
@@ -41,5 +43,3 @@ The **BasqueParl** corpus is written as a Tab Separated Values (TSV) file. Each 
 - **"lemmas_stw"**: Lemmatized paragraph without stopwords
 - **"entities"**: Named entities extracted from the paragraph
 - **"entities_stw"**: Named entities extracted from the paragraph without stopwords
-
-Some fields such as gender or party may have been sometimes annotated as missing if the data was impossible to retrieve or was not appropriate.
