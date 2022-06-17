@@ -22,9 +22,9 @@ The specificities of the **BasqueParl** corpus are:
 - **Language** of each paragraph (either Basque or Spanish)
 - **Lemmas** and **named entities** of each paragraph, with and without stopwords
 
-## Reference
+## If you use this resource please cite the following paper:
 
-> N. Escribano, J. A. Gonzalez, J. Orbegozo-Terradillos, A. Larrondo-Ureta, S. Peña-Fernández, O. Perez-de-Viñaspre and R. Agerri (2022). BasqueParl: A Bilingual Corpus of Basque Parliamentary Transcriptions. In *LREC 2022*.
++ Nayla Escribano, Jon Ander Gonzalez, Julen Orbegozo-Terradillos, Ainara Larrondo-Ureta, Simón Peña-Fernández, Olatz Perez-de-Viñaspre and Rodrigo Agerri  (2022). [BasqueParl: A Bilingual Corpus of Basque Parliamentary Transcriptions](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.361.pdf). In *LREC 2022*.
 
 ## Data Fields
 
