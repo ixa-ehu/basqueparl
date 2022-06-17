@@ -22,10 +22,6 @@ The specificities of the **BasqueParl** corpus are:
 - **Language** of each paragraph (either Basque or Spanish)
 - **Lemmas** and **named entities** of each paragraph, with and without stopwords
 
-## If you use this resource please cite the following paper:
-
-+ Nayla Escribano, Jon Ander Gonzalez, Julen Orbegozo-Terradillos, Ainara Larrondo-Ureta, Simón Peña-Fernández, Olatz Perez-de-Viñaspre and Rodrigo Agerri  (2022). [BasqueParl: A Bilingual Corpus of Basque Parliamentary Transcriptions](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.361.pdf). In *LREC 2022*.
-
 ## Data Fields
 
 The **BasqueParl** corpus is written as a Tab Separated Values (TSV) file. Each unit presents the next fields:
@@ -54,4 +50,6 @@ The **BasqueParl** corpus is written as a Tab Separated Values (TSV) file. Each 
 
 **Language detection** was performed by means of [langdetect](https://github.com/fedelopez77/langdetect).
 
-For more information, please read the [project reference](README.md#Reference).
+## If you use this resource please cite the following paper:
+
++ Nayla Escribano, Jon Ander Gonzalez, Julen Orbegozo-Terradillos, Ainara Larrondo-Ureta, Simón Peña-Fernández, Olatz Perez-de-Viñaspre and Rodrigo Agerri  (2022). [BasqueParl: A Bilingual Corpus of Basque Parliamentary Transcriptions](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.361.pdf). In *LREC 2022*.
