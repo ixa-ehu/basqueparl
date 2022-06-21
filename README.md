@@ -53,3 +53,8 @@ The **BasqueParl** corpus is written as a Tab Separated Values (TSV) file. Each 
 ## If you use this resource please cite the following paper:
 
 + Nayla Escribano, Jon Ander Gonzalez, Julen Orbegozo-Terradillos, Ainara Larrondo-Ureta, Simón Peña-Fernández, Olatz Perez-de-Viñaspre and Rodrigo Agerri  (2022). [BasqueParl: A Bilingual Corpus of Basque Parliamentary Transcriptions](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.361.pdf). In *LREC 2022*.
+
+## Contact Details
+
+Rodrigo Agerri
+rodrigo.agerri@ehu.eus
