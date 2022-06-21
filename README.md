@@ -44,9 +44,9 @@ The **BasqueParl** corpus is written as a Tab Separated Values (TSV) file. Each 
 
 **Lemmas** and **named entities** of each paragraph have been extracted with these state-of-the-art Flair [lemmatization](ixa2.si.ehu.es/ragerri/flair-es-eu-lemma-models.tar.gz) and [NER](ixa2.si.ehu.es/ragerri/flair-es-eu-ner-models.tar.gz) models:
 
-> R. Agerri, I. S. Vicente, J. A. Campos, A. Barrena, X. Saralegi, A. S. Etxabe, and E. Agirre (2020). Give your text representation models some love: the case for basque. In LREC.
-> 
-> R. Agerri (2020). Projecting heterogeneous annotations for named entity recognition. In Iber-LEF@SEPLN.
++ Rodrigo Agerri, Iñaki San Vicente, Jon Ander Campos, Ander Barrena, Xabier Saralegi, Aitor Soroa, and Eneko Agirre (2020). [Give your text representation models some love: the case for basque](https://aclanthology.org/2020.lrec-1.588.pdf). In LREC 2020.
+
++ Rodrigo Agerri and German Rigau (2020). [Projecting heterogeneous annotations for named entity recognition](http://ceur-ws.org/Vol-2664/capitel_paper2.pdf). In IberLEF 2020.
 
 **Language detection** was performed by means of [langdetect](https://github.com/fedelopez77/langdetect).
 
