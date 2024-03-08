@@ -2,6 +2,12 @@
 
 This repository contains **BasqueParl**, a bilingual corpus for political discourse analysis. It covers transcriptions from the Parliament of the Basque Autonomous Community for eight years and two legislative terms (2012-2020), and its main characteristic is the presence of Basque-Spanish code-switching speeches.
 
+## Download dataset
+
+[https://huggingface.co/datasets/HiTZ/basqueparl](https://huggingface.co/datasets/HiTZ/basqueparl)
+
+## Data Description
+
 For instance, the following unprocessed speech combines a **Basque** text (plain) with **Spanish** fragments (highlighted):
 
 > Bai, zure baimenarekin hemendik.
@@ -57,4 +63,5 @@ The **BasqueParl** corpus is written as a Tab Separated Values (TSV) file. Each 
 ## Contact Details
 
 Rodrigo Agerri
-rodrigo.agerri@ehu.eus
+HiTZ Center - Ixa, University of the Basque Country UPV/EHU
+[https://ragerri.github.io/](https://ragerri.github.io/)
